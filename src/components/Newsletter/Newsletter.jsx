@@ -11,7 +11,7 @@ export const Newsletter = () => {
           Stay informed with latest updates. No spam, just exlusive content.
         </p>
 
-        <div className="flex flex-col md:flex-row items-center justify-center gap-2">
+        <div className="flex flex-col md:flex-row items-center justify-center md:gap-2 md:gap-6">
           <input 
             type="email" 
             placeholder="Enter your email"
