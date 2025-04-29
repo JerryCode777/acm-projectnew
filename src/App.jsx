@@ -3,6 +3,8 @@ import Hero from "./components/Hero/Hero"
 import Category from "./components/Category/Category"
 import { useState } from "react"
 import Discount from "./components/Discount/Discount"
+import About from "./components/About/About"
+import { Newsletter } from "./components/Newsletter/Newsletter"
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(true)
@@ -17,6 +19,8 @@ const App = () => {
       <Hero />
       <Category />
       <Discount />
+      <About />
+      <Newsletter />
     </div>
   )
 }
