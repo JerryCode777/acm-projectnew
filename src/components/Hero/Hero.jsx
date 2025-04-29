@@ -2,7 +2,7 @@ import hero from "../../assets/hero.jpg"
 
 const Hero = () => {
   return (
-    <section className="dark:bg-slate-900 overflow-hidden py-6">
+    <section id="home" className="dark:bg-slate-900 overflow-hidden py-6">
       <div
         style={{ backgroundImage: `url(${hero})` }}
         className="container mx-auto justify-between max-w-7xl flex flex-col h-[600px] bg-cover bg-center rounded-lg"
