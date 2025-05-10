@@ -9,7 +9,7 @@ const Hero = () => {
       >
         <div className="w-full h-full bg-opacity-40 bg-slate-500">
           <h1 className="font-bold text-white rotate-12 mt-10 md:mt-0 text-5xl lg:text-8xl lg:p-10 p-3 text-right">
-            Jerry Anderson <br /> Huaynacho Mango
+            just do <br /> It
           </h1>
         </div>
       </div>

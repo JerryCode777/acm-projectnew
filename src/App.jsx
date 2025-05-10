@@ -5,6 +5,7 @@ import { useState } from "react"
 import Discount from "./components/Discount/Discount"
 import About from "./components/About/About"
 import { Newsletter } from "./components/Newsletter/Newsletter"
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(true)
@@ -21,6 +22,7 @@ const App = () => {
       <Discount />
       <About />
       <Newsletter />
+      <Footer />
     </div>
   )
 }
